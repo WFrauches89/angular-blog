@@ -1,3 +1,18 @@
-p {
-  color: azure;
+.container__menu-bar > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.container__menu-bar > ul > li {
+  margin: 20px;
+  list-style: none;
+}
+
+.container__menu-bar > ul > li > a {
+  text-decoration: none;
+  color: aliceblue;
+}
+.container__menu-bar > ul > li > span {
+  color: aliceblue;
 }

@@ -1,3 +1,39 @@
-p {
-  color: azure;
+.container__big-card {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 500px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.big-cards__pics > img {
+  width: 100%;
+  min-width: 500px;
+  max-height: 250px;
+}
+
+.big-cards__title-mat > h2 {
+  color: grey;
+  font-size: 25px;
+}
+
+.big-cards__title-mat > h2 > a {
+  color: rgb(240, 240, 240);
+  font-style: italic;
+  text-decoration: none;
+}
+
+.big-cards__autor {
+  margin-top: 5px;
+  color: grey;
+  font-size: 10px;
+}
+
+.big-cards__chamada-mat {
+  margin-top: 10px;
+  color: grey;
+  font-size: 15px;
+  text-align: justify;
 }

@@ -1,3 +1,18 @@
-p {
-  color: azure;
+.container__menu-title {
+  color: aliceblue;
+}
+
+.container__menu-title > h1 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 155px;
+  font-weight: 900;
+  font-family: "Segoe UI", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.container__menu-title > hr {
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
