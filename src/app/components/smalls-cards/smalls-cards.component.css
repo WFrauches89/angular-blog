@@ -1,11 +1,15 @@
 .container__small-cards {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   margin-right: 20px;
   width: 500px;
   margin-top: 10px;
   margin-bottom: 15px;
+}
+
+.small-cards__pics {
+  width: 40%;
 }
 
 .small-cards__pics > img {
@@ -16,11 +20,13 @@
 .small-cards__texts {
   display: flex;
   flex-direction: column;
+  width: 100%;
   padding: 10px;
 }
 
 .small-cards__title-mat > h2 {
   color: grey;
+  margin-bottom: 2px;
   font-size: 10px;
   font-weight: 100;
 }

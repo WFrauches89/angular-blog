@@ -1,0 +1,27 @@
+<div class="container__content__global">
+  <app-menu-bar></app-menu-bar>
+  <div class="container__content">
+    <div class="content-cover">
+      <img src={{photoCover}} alt="">
+    </div>
+    <div class="content-autor">
+      <p>
+        {{cardAutor}}
+      </p>
+    </div>
+    <div class="content-title">
+      <h2>
+        {{cardTitle}}
+      </h2>
+    </div>
+    <div class="content-description">
+      <p>{{cardDescription}}</p>
+    </div>
+  </div>
+  <div class="back-page">
+    <a [routerLink]="['']">
+      << Voltar
+    </a>
+  </div>
+</div>
+

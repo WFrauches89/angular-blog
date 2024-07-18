@@ -1,0 +1,59 @@
+.container__content__global {
+  width: 90%;
+  margin: auto;
+}
+
+.container__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 850px;
+}
+
+.content-cover {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.content-cover > img {
+  width: 650px;
+  min-width: 650px;
+  height: 420px;
+  min-height: 420px;
+  border-radius: 15px;
+}
+
+.content-autor {
+  color: rgb(80, 84, 88);
+  font-style: italic;
+  font-size: 15px;
+}
+
+.content-title {
+  margin-top: 15px;
+}
+
+.content-title > h2 {
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  font-size: 50px;
+}
+
+.content-description {
+  margin-top: 15px;
+}
+
+.content-description > p {
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+}
+
+.back-page {
+  margin-left: 20px;
+}
+
+.back-page > a {
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+}

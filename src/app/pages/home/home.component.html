@@ -1,14 +1,46 @@
-<app-menu-bar></app-menu-bar>
-<app-menu-title></app-menu-title>
-<div class="articles">
-  <div class="articles-big-cards">
-    <app-big-card></app-big-card>
-  </div>
-  <div class="articles-small-cards">
-    <app-smalls-cards></app-smalls-cards>
-    <app-smalls-cards></app-smalls-cards>
-    <app-smalls-cards></app-smalls-cards>
-    <app-smalls-cards></app-smalls-cards>
+<div class="container__app-component">
+  <header>
+    <app-menu-bar></app-menu-bar>
+  </header>
+  <app-menu-title></app-menu-title>
+  <div class="articles">
+    <div class="articles-big-cards">
+      <app-big-card
+      id=1
+      photoCover="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5BunB9pn23qPL1p42KwG71Jb9qVyd3cqC4Q&s"
+      cardAutor="Predosa"
+      cardTitle="Little Couto"
+      cardDescritpion="Coutinho voltou!"
+      />
+    </div>
+    <div class="articles-small-cards">
+      <app-smalls-cards
+      id=2
+      photoCoverSmall="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX202A28PqHcCWAcv08-xHgGuZRtclBVj1VQ&s"
+      cardTitleSmall="Souza voltou"
+      cardDescritpionSmall="Souza e Little Couto"
+      />
+      <app-smalls-cards
+      id=3
+      photoCoverSmall="https://static.gazetaesportiva.com/uploads/imagem/2023/11/12/WhatsApp-Image-2023-11-12-at-22.05.45.jpeg.webp"
+      cardTitleSmall="Léo Garden"
+      cardDescritpionSmall="Garden do Vascão"
+      />
+      <app-smalls-cards
+      id=4
+      photoCoverSmall="https://midias.correiobraziliense.com.br/_midias/jpg/2023/08/04/f2txov6xabugzau-28794800.jfif"
+      cardTitleSmall="El Pirata"
+      cardDescritpionSmall="Pirata está louco"
+      />
+      <app-smalls-cards
+      id=5
+      photoCoverSmall="https://www.netvasco.com.br/news/noticias16/arquivos/20230816-072108-1-1-.jpg"
+      cardTitleSmall="Dimitri Payet"
+      cardDescritpionSmall="Small Payet"
+      />
 
+
+    </div>
   </div>
 </div>
+
